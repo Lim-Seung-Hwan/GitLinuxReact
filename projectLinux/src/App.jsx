@@ -10,7 +10,7 @@ function App() {
 
   const myNodeGet = () =>{
     //Node 서버에 접근하고싶어요!
-    axios('/api')
+    axios('http://10.10.20.6:3001')
     .then((res)=>{
       console.log(res)
     })
